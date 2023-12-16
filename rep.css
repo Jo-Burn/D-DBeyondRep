@@ -1,0 +1,395 @@
+@media only screen and (min-width: 1200px) {
+body {
+    font-family: system-ui;
+}
+h1 {
+    font-size: 35px;
+    position: relative;
+    top: 5vh;
+    right: 10vh;
+    font-weight: normal;
+}
+#details {
+ position: relative;
+ bottom: .8vh;
+ left: 1.5vw;
+ font-size: 20px;
+ opacity: 70%;
+}
+#open, #cause, #beyond, #creating {
+    width: 54vw;
+    position: relative;
+    left: 37vw;
+    /*bottom: 32vh;*/
+}
+#intro {
+    width: 50vw;
+    position: relative;
+    left: 37vw;
+    bottom: -2vh;
+}
+p {
+    font-size: 16px;
+    text-align: left;
+    position: relative;
+    right: 5vw;
+    line-height: 30px;
+}
+h2 {
+    position: relative;
+    left: .1vw;
+    top: 1vh;
+    font-weight: 600;
+}
+.underline {
+   width: 57vw;
+   position: relative;
+   right: 5vw;
+   border-bottom: 0.5px solid rgb(220, 143, 0);
+}
+#nav {
+    position: fixed;
+    left: 10vw;
+    top: 8vh;
+   /* background-color: gray;*/
+    width: 300px;
+    height: 300px;
+    border: 1px;
+    border-color: grey;
+    border-style: solid;
+    font-size: 18px;
+    font-family: Arial Narrow, sans-serif;
+}
+a {
+    color: black;
+    text-decoration: none;
+    width: 299px;
+    height: 25px;
+    display: block;
+    font-size: 17px;
+    position: relative;
+    left: 10vw;
+}
+a:hover {
+    color: brown;
+    border-left: 2px solid orange;
+}
+#green {
+    color: green;
+    padding-right: 7px;
+}
+#border {
+    border-style: solid;
+    border-color: black;
+    border-width: .5px;
+    z-index: 1;
+    width: 299px;
+    height: 25px;
+}
+span,#introA,#causeA,#beyondA,#creatingA {
+    position: relative;
+    left: -.009vw;
+}
+span,#green {
+    position: relative;
+    left: .5vw;
+}
+.nav {
+    position: relative;
+    right: 10vw;
+}
+#introA {
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    /*left: 1vw;*/
+}
+#causeA {
+    position: relative;
+    top: 0vh;
+    /*right: 3.49vw;*/
+    padding-top: 8px;
+    /*left: 1vw;*/
+} 
+#beyondA {
+    position: relative;
+    top: 1vh;
+    right: 0vw;
+    /*left: 1vw;*/
+}
+#creatingA {
+    position: relative;
+    top: 2vh;
+    /*left: 1vw;*/
+    text-align: 1vw;
+}
+img {
+    position: relative;
+    right: 4vw;
+    margin-left: 5px;
+    float: right;
+    bottom: 6vh;
+}
+}
+@media only screen and (max-width: 992px) {
+    body {
+        font-family: system-ui;
+    }
+    h1 {
+        font-size: 35px;
+        position: relative;
+        top: 5vh;
+        right: 2.5vh;
+        font-weight: normal;
+    }
+    #details {
+     position: relative;
+     bottom: 1.3vh;
+     left: 10vw;
+     font-size: 20px;
+     opacity: 70%;
+    }
+    #open, #cause, #beyond, #creating {
+        width: 60vw;
+        position: relative;
+        left: 40vw;
+        /*bottom: 32vh;*/
+    }
+    #intro {
+        width: 50vw;
+        position: relative;
+        left: 37vw;
+        bottom: -2vh;
+    }
+    p {
+        font-size: 16px;
+        text-align: left;
+        position: relative;
+        right: 5vw;
+        line-height: 30px;
+    }
+    h2 {
+        position: relative;
+        left: .1vw;
+        top: 1vh;
+        font-weight: 600;
+    }
+    .underline {
+       width: 57vw;
+       position: relative;
+       right: 5vw;
+       border-bottom: 0.5px solid rgb(220, 143, 0);
+    }
+    #nav {
+        position: fixed;
+        left: 3vw;
+        top: 8vh;
+       /* background-color: gray;*/
+        width: 300px;
+        height: 300px;
+        border: 1px;
+        border-color: grey;
+        border-style: solid;
+        font-size: 18px;
+        font-family: Arial Narrow, sans-serif;
+    }
+    a {
+        color: black;
+        text-decoration: none;
+        width: 299px;
+        height: 25px;
+        display: block;
+        font-size: 17px;
+        position: relative;
+        left: 10vw;
+    }
+    a:hover {
+        color: brown;
+        border-left: 2px solid orange;
+    }
+    #green {
+        color: green;
+        padding-right: 7px;
+    }
+    #border {
+        border-style: solid;
+        border-color: black;
+        border-width: .5px;
+        z-index: 1;
+        width: 299px;
+        height: 25px;
+    }
+    span,#introA,#causeA,#beyondA,#creatingA {
+        position: relative;
+        left: -.009vw;
+    }
+    span,#green {
+        position: relative;
+        left: .5vw;
+    }
+    .nav {
+        position: relative;
+        right: 10vw;
+    }
+    #introA {
+        position: relative;
+        font-size: 20px;
+        font-weight: bold;
+        /*left: 1vw;*/
+    }
+    #causeA {
+        position: relative;
+        top: 0vh;
+        /*right: 3.49vw;*/
+        padding-top: 8px;
+        /*left: 1vw;*/
+    } 
+    #beyondA {
+        position: relative;
+        top: 1vh;
+        right: 0vw;
+        /*left: 1vw;*/
+    }
+    #creatingA {
+        position: relative;
+        top: 2vh;
+        /*left: 1vw;*/
+        text-align: 1vw;
+    }
+    img {
+        position: relative;
+        right: 4vw;
+        margin-left: 5px;
+        float: right;
+        bottom: 6vh;
+    }
+}
+@media only screen and (max-width: 600px)  {
+    body {
+        font-family: system-ui;
+    }
+    h1 {
+        font-size: 40px;
+        position: relative;
+        bottom: 5vh;
+        right: 38vw;
+        font-weight: normal;
+    }
+    #details {
+     position: relative;
+     bottom: 12.1vh;
+     right: 15vw;
+     font-size: 20px;
+     opacity: 70%;
+    }
+    #open, #cause, #beyond, #creating {
+        /*width: 54vw;*/
+        position: relative;
+        left: 5vw;
+        /*bottom: 32vh;*/
+    }
+    #intro {
+        width: 50vw;
+        position: relative;
+        left: 37vw;
+        bottom: -2vh;
+    }
+    p {
+        font-size: 16px;
+        text-align: left;
+        position: relative;
+        right: 5vw;
+        line-height: 30px;
+    }
+    h2 {
+        position: relative;
+        left: .1vw;
+        top: 1vh;
+        font-weight: 600;
+    }
+    .underline {
+       width: 80vw;
+       position: relative;
+       right: 5vw;
+       border-bottom: 2px solid rgb(220, 143, 0);
+    }
+    .sUnderline {
+        width: 80vw;
+       position: relative;
+       /*right: 5vw;*/
+       border-bottom: 2px solid rgb(220, 143, 0);
+    }
+    #nav {
+        display: none;
+    }
+    a {
+        color: black;
+        text-decoration: none;
+        width: 299px;
+        height: 25px;
+        display: block;
+        font-size: 17px;
+        position: relative;
+        left: 10vw;
+    }
+    a:hover {
+        color: brown;
+        border-left: 2px solid orange;
+    }
+    #green {
+        color: green;
+        padding-right: 7px;
+    }
+    #border {
+        border-style: solid;
+        border-color: black;
+        border-width: .5px;
+        z-index: 1;
+        width: 299px;
+        height: 25px;
+    }
+    span,#introA,#causeA,#beyondA,#creatingA {
+        position: relative;
+        left: -.009vw;
+    }
+    span,#green {
+        position: relative;
+        left: .5vw;
+    }
+    .nav {
+        position: relative;
+        right: 10vw;
+    }
+    #introA {
+        position: relative;
+        font-size: 20px;
+        font-weight: bold;
+        /*left: 1vw;*/
+    }
+    #causeA {
+        position: relative;
+        top: 0vh;
+        /*right: 3.49vw;*/
+        padding-top: 8px;
+        /*left: 1vw;*/
+    } 
+    #beyondA {
+        position: relative;
+        top: 1vh;
+        right: 0vw;
+        /*left: 1vw;*/
+    }
+    #creatingA {
+        position: relative;
+        top: 2vh;
+        /*left: 1vw;*/
+        text-align: 1vw;
+    }
+    img {
+        position: relative;
+        left: 15vw;
+        /*margin-left: 5px;*/
+        /*float: right;*/
+        bottom: 6vh;
+    }
+}
