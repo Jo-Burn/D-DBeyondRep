@@ -11,8 +11,8 @@ h1 {
 }
 #details {
  position: relative;
- bottom: .5vh;
- left: 2vw;
+ bottom: .1vh;
+ left: 3vw;
  font-size: 20px;
  opacity: 70%;
 }
