@@ -277,8 +277,8 @@ img {
     }
     #details {
      position: relative;
-     bottom: 1vh;
-     right: 30vw;
+     bottom: 2vh;
+     right: 40vw;
      font-size: 20px;
      opacity: 70%;
     }
